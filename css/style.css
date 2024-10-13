@@ -24,7 +24,7 @@ body {
 #page {
   max-width: 800px;
   padding: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
   background-color: var(--sufarce-color);
   border-radius: 24px;
 }
@@ -69,4 +69,20 @@ ul {
 p {
   color: var(--text-color-secondary);
   text-align: justify;
+}
+
+footer {
+  text-align: center;
+  color: var(--text-color-on-bg);
+  padding-bottom: 48px;
+  font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-color-on-bg);
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
