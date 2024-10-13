@@ -11,3 +11,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url(/assets/imgs/bg-image.png);
+  background-size: cover;
+  background-color: var(--background-color);
+  padding: 0 24px;
+}
+
+#page {
+  max-width: 800px;
+  padding: 24px;
+  margin: 48px auto;
+  background-color: var(--sufarce-color);
+  border-radius: 24px;
+}
+
+.main__image {
+  border-radius: 16px;
+  width: 100%;
+}
