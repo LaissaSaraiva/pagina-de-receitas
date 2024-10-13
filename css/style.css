@@ -17,6 +17,8 @@ body {
   background-size: cover;
   background-color: var(--background-color);
   padding: 0 24px;
+  font-family: "Alice", serif;
+  line-height: 150%;
 }
 
 #page {
@@ -30,4 +32,41 @@ body {
 .main__image {
   border-radius: 16px;
   width: 100%;
+}
+
+.section__container {
+  padding: 24px;
+}
+
+section+section {
+  margin-top: 24px;
+}
+
+#about p+p {
+  margin-top: 12px;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  line-height: 150%;
+  margin-bottom: 4px;
+}
+
+ul {
+  color: var(--text-color-primary);
+  padding-left: 24px;
+}
+
+p {
+  color: var(--text-color-secondary);
+  text-align: justify;
 }
